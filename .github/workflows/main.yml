@@ -12,7 +12,3 @@ jobs:
 
     steps:
       - uses: tgymnich/fork-sync@v1.4
-        with:
-          token: ${{ secrets.PERSONAL_TOKEN }}
-          base: master
-          head: master
